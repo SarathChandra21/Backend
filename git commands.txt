@@ -1,0 +1,20 @@
+git init   -> initates git in the local reposiotry
+git status -> to check untracked files
+git log    -> to check the recent commits
+git diff filename -> it will show the changes of that fie
+git add .         -> to add files to staging
+git commit -m " " -> to commit with a message
+git clone url     -> copies remote reposiotry to local 
+
+git remote add origin https://url  => creates a remote reposiotry name called origin
+git branch -M main                 => changing current branch name to main
+git push origin -u main            => pushing the code to remote reposiotry
+
+ls -Force => alternative for ls -a
+
+.gitignore => the extensions stored in this files will be ignored when pushed to github
+
+git branch               => list all the branches 
+git branch xyz           => creates a branch with name xyz
+git merge branch_name    => merges that branch to the current branch
+git checkout branch_bame => it moves to that corresponding branch
